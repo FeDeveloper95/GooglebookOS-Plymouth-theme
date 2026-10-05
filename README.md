@@ -2,6 +2,8 @@
 
 Get the GooglebookOS boot animation on your PC
 
+https://github.com/user-attachments/assets/3b3b1051-c875-44e8-80ea-580983765f81
+
 ## Install
 
 Clone the repo and run the installer:
