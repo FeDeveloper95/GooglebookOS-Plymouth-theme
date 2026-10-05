@@ -1,0 +1,18 @@
+total_frames = 241;
+
+for (i = 0; i < total_frames; i++) {
+    images[i] = Image("frame_" + i + ".png");
+}
+
+sprite = Sprite();
+sprite.SetX(Window.GetWidth() / 2 - images[0].GetWidth() / 2);
+sprite.SetY(Window.GetHeight() / 2 - images[0].GetHeight() / 2);
+
+frame_index = 0;
+
+fun refresh_callback () {
+    sprite.SetImage(images[Math.Int(frame_index) % total_frames]);
+    frame_index += 0.6;
+}
+
+Plymouth.SetRefreshFunction(refresh_callback);

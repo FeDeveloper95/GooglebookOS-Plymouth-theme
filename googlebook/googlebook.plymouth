@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=GooglebookOS Plymouth Theme
+Description=GooglebookOS bootanimation for Plymouth by FeDeveloper95
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/googlebook
+ScriptFile=/usr/share/plymouth/themes/pixel_gemini/googlebook.script
